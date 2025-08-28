@@ -1,12 +1,3 @@
-# Kullanılan Paketler ve Amaçları
-
-| react-router-dom 
-    
-| redux / zustand 
-
-| react-hook-form 
-
-| tailwindcss        
 
 ## Notlar Uygulaması
 
@@ -25,6 +16,17 @@ React ve modern web teknolojilerini kullanarak temel bir notlar uygulaması geli
 4. **Not Silme:** Kullanıcı notu silebilmeli.
 
 5. **Kullanıcı Arayüzü:** Tüm arayüzü Tailwind CSS ile modern ve kullanıcı dostu şekilde tasarlayın.
+
+   
+# Kullanılan Paketler ve Amaçları
+
+| react-router-dom 
+    
+| redux / zustand 
+
+| react-hook-form 
+
+| tailwindcss        
 
 
 ## Teslim Tarihi
