@@ -18,7 +18,7 @@ React ve modern web teknolojilerini kullanarak temel bir notlar uygulaması geli
 5. **Kullanıcı Arayüzü:** Tüm arayüzü Tailwind CSS ile modern ve kullanıcı dostu şekilde tasarlayın.
 
    
-# Kullanılan Paketler ve Amaçları
+# Kullanmanız Gereken Paketler 
 
 | react-router-dom 
     
@@ -27,10 +27,6 @@ React ve modern web teknolojilerini kullanarak temel bir notlar uygulaması geli
 | react-hook-form 
 
 | tailwindcss        
-
-
-## Teslim Tarihi
-- Son teslim tarihi: 04:09:2025
 
 ## Değerlendirme Kriterleri
 
