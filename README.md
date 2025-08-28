@@ -8,7 +8,7 @@
 
 | tailwindcss        
 
-# 1 Haftalık Ödev: Notlar Uygulaması
+## Notlar Uygulaması
 
 ## Proje Amacı
 
