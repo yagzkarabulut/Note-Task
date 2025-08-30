@@ -1,40 +1,12 @@
+# React + Vite
 
-## Notlar Uygulaması
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Proje Amacı
+Currently, two official plugins are available:
 
-React ve modern web teknolojilerini kullanarak temel bir notlar uygulaması geliştirmek.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Görevler
+## Expanding the ESLint configuration
 
-1. **Not Ekleme:** Kullanıcı yeni not ekleyebilmeli.
-
-2. **Notları Listeleme:** Eklenen notlar listelenmeli.
-
-3. **Not Düzenleme:** Kullanıcı mevcut notu düzenleyebilmeli.
-
-4. **Not Silme:** Kullanıcı notu silebilmeli.
-
-5. **Kullanıcı Arayüzü:** Tüm arayüzü Tailwind CSS ile modern ve kullanıcı dostu şekilde tasarlayın.
-
-   
-# Kullanmanız Gereken Paketler 
-
-| react-router-dom 
-    
-| redux / zustand 
-
-| react-hook-form 
-
-| tailwindcss        
-
-## Değerlendirme Kriterleri
-
-- Fonksiyonellik (tüm özellikler çalışıyor mu?)
-
-- Kod kalitesi ve okunabilirliği
-
-- Arayüz tasarımı ve kullanıcı deneyimi
-
-
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
