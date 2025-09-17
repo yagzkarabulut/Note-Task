@@ -1,11 +1,21 @@
-import React from 'react'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import NoteList from './components/NoteList';
+import TaskList from './components/TaskList';
+import './index.css';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <h1>Merhaba Dünya</h1>
-    </div>
-  )
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<NoteList />} />
+          <Route path="/notes" element={<NoteList />} />
+          <Route path="/tasks" element={<TaskList />} />
+        </Routes>
+      </div>
+    </Router>
+  );
 }
 
-export default App
+export default App;
