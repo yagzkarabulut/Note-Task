@@ -1,40 +1,26 @@
+# Note Task
 
-## Notlar Uygulaması
+> A modern and fast React app where you can easily add and edit your personal notes.
 
-## Proje Amacı
+## Preview
 
-React ve modern web teknolojilerini kullanarak temel bir notlar uygulaması geliştirmek.
+![Preview](public/note-task.gif)
 
-## Görevler
+---
 
-1. **Not Ekleme:** Kullanıcı yeni not ekleyebilmeli.
+## 🚀 Features
 
-2. **Notları Listeleme:** Eklenen notlar listelenmeli.
+- Adding, deleting, and editing notes
+- Notes are permanently stored in local storage
+- Modern and responsive interface (Tailwind CSS)
+- Fast and easy to use
+- Form validation and error messages
 
-3. **Not Düzenleme:** Kullanıcı mevcut notu düzenleyebilmeli.
+## 🛠️ Technologies & Libraries Used
 
-4. **Not Silme:** Kullanıcı notu silebilmeli.
-
-5. **Kullanıcı Arayüzü:** Tüm arayüzü Tailwind CSS ile modern ve kullanıcı dostu şekilde tasarlayın.
-
-   
-# Kullanmanız Gereken Paketler 
-
-| react-router-dom 
-    
-| redux / zustand 
-
-| react-hook-form 
-
-| tailwindcss        
-
-## Değerlendirme Kriterleri
-
-- Fonksiyonellik (tüm özellikler çalışıyor mu?)
-
-- Kod kalitesi ve okunabilirliği
-
-- Arayüz tasarımı ve kullanıcı deneyimi
-
-
-
+- [React](https://react.dev/) (SPA architecture)
+- [Vite](https://vitejs.dev/) (rapid development environment)
+- [Tailwind CSS](https://tailwindcss.com/) (modern styling)
+- [Zustand](https://zustand-demo.pmnd.rs/) (global state management)
+- [React Hook Form](https://react-hook-form.com/) (form management and validation)
+- [React Router DOM](https://reactrouter.com/) (page redirect)
