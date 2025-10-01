@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+
+  @apply font-sans bg-gray-100 text-gray-800;
+}
+
+
+@layer components {
+
+  .container {
+    @apply max-w-5xl mx-auto my-8 px-4;
+  }
+
+  h1 {
+    @apply text-4xl font-extrabold text-center mb-8 text-blue-600;
+  }
+
+  .note-card {
+
+    @apply rounded-xl p-4 bg-white shadow-lg relative transition duration-300;
+  }
+  .note-card:hover {
+
+    @apply transform -translate-y-1.5 shadow-2xl;
+  }
+
+
+  .note-card .category-label {
+    @apply absolute top-2 left-2 px-2 py-1 text-sm font-semibold rounded-lg text-white;
+  }
+
+ 
+  .category-Ev {
+    @apply bg-emerald-500; 
+  }
+  .category-İş {
+    @apply bg-amber-500; 
+  }
+  .category-Okul {
+    @apply bg-blue-600;
+  }
+
+
+  button {
+    @apply cursor-pointer py-2 px-4 rounded-xl font-semibold transition duration-200;
+  }
+
+
+  button.edit {
+    @apply bg-yellow-500 text-white hover:bg-yellow-600;
+  }
+
+  button.delete {
+    @apply bg-red-600 text-white hover:bg-red-700;
+  }
+
+  button.add {
+    @apply bg-green-600 text-white hover:bg-green-700;
+  }
+
+
+  select,
+  input,
+  textarea {
+    @apply w-full rounded-xl p-3 border border-gray-300 outline-none transition duration-200;
+  }
+  select:focus,
+  input:focus,
+  textarea:focus {
+
+    @apply border-blue-600 shadow-md shadow-blue-500/50;
+  }
+}
